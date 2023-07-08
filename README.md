@@ -31,23 +31,49 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Internet Information Services (ISS) with CGI features must be added to windows for the installation of osTicket.
+</p>
+
+<p>
+<img src="https://i.imgur.com/x3Jiap7.jpg" height="30%" width="30%" alt="Windows Search Bar"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Type or copy and paste "C:\Windows\System32\OptionalFeatures.exe" into the Window's search bar. This will bring up an option to turn Windows features on or off.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/bsMDewg.png" height="30%" width="30%" alt="Windows Features"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The Window should look like the above screen shot.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ucI5Ja2.png" height="30%" width="30%" alt="IIS"/>
+</p>
+<p>
+Check the box for Internet Information Services shown above.
+</p>
+
+<p>
+<img src="https://i.imgur.com/Nyl2vhO.png" height="30%" width="30%" alt="CGI  "/>
+</p>
+
+<p>
+Check the CGI Box under Expand Internet Information Services > World Wide Webs Services > Application Development Feature > CGI show above.
+</p>
+
+<p>
+<img src="https://i.imgur.com/gcIg8L5.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Also Check all the Common HTTP Features shown above.
+</p>
+
+<p>
+<img src="https://i.imgur.com/ucI5Ja2.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
