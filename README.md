@@ -82,22 +82,31 @@ Check if IIS has setup correctly by typing a loopback address into your browser 
 
 These shared [Installation files](https://drive.google.com/drive/folders/1Zy6qPGc7fs0zD8q6cXMNQ7H7uAZB2yYK?usp=sharing) will be downloaded and installed.
 <p>
-<img src="https://i.imgur.com/TVqHEYY.png" height="30%" width="30%" alt="Google Drive"/>
+<img src="https://i.imgur.com/TVqHEYY.png" height="60%" width="60%" alt="Google Drive"/>
 </p>
 <p> Click the "Download all" button in the top right </p>
 <p>
-<img src="https://i.imgur.com/otYdqIi.png" height="30%" width="30%" alt="Google Drive"/>
+<img src="https://i.imgur.com/otYdqIi.png" height="60%" width="60%" alt="osTicketIntallationFiles"/>
 </p>
-<p> Navigate to the folder just downloaded </p>
-<p> Install PHP Manager for IIS, PHPManagerForIIS_V1.5.0.msi </p>
-
-<p> Download and Install Rewrite Module, rewrite_amd64_en-US.msi </p>
-
+<p> Navigate to the folder just downloaded "C:\...\Downloads\osTicketInstallationFiles-20230712T220757Z-001.zip\osTicketInstallationFiles" (your path maybe for a different user) and 
+<p>
+<img src="https://i.imgur.com/NW5k1hv.png" height="60%" width="60%" alt="Google Drive"/>
+</p>
+<p> Extract the content of the zip file to the downloads folder, you should be redirected to the folder extracted to.</p>
+<p>
+Install PHP Manager for IIS, PHPManagerForIIS_V1.5.0.msi
+Install Rewrite Module, rewrite_amd64_en-US.msi </p>
+<br>
+<p>
+<img src="https://i.imgur.com/SCA128Z.png" height="60%" width="60%" alt="Google Drive"/>
+</p>
 <p> Create the directory C:\PHP (to unzip PHP to) </p>
+<p>
+<img src="https://i.imgur.com/THJIdpD.png" height="60%" width="60%" alt="Google Drive"/>
+</p>
+<p> Copy contents of "php-7.3.8-nts-Win32-VC15-x86.zip" to "C:\PHP"  </p>
 
-<p> Download and unzip to "C:\PHP" PHP 7.38, php-7.3.8-nts-Win32-VC15-x86.zip </p>
-
-<p> Download and install Visual C++, VC_redist.x86.exe </p>
+<p> Install Visual C++, VC_redist.x86.exe </p>
 
 <p> Download and MySQL 5.5.62, mysql-5.5.62-win32.msi </p>
 <p> Typical Setup ->
