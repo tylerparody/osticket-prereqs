@@ -73,9 +73,14 @@ Also Check all the Common HTTP Features shown above.
 </p>
 
 <p>
-<img src="https://i.imgur.com/ucI5Ja2.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/9EgdWl4.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Check if IIS has setup correctly by typing a loopback address into your browser "127.0.0.1". The page above should load.  
+</p>
+
+<p>
+These shared [Installation files](https://drive.google.com/drive/folders/1Zy6qPGc7fs0zD8q6cXMNQ7H7uAZB2yYK?usp=sharing) will be downloaded and installed
 </p>
 <br />
+
