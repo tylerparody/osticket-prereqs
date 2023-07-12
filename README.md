@@ -94,8 +94,11 @@ These shared [Installation files](https://drive.google.com/drive/folders/1Zy6qPG
 </p>
 <p> Extract the content of the zip file to the downloads folder, you should be redirected to the folder extracted to.</p>
 <p>
-Install PHP Manager for IIS, PHPManagerForIIS_V1.5.0.msi
-Install Rewrite Module, rewrite_amd64_en-US.msi </p>
+Install PHP Manager for IIS, "PHPManagerForIIS_V1.5.0.msi"  
+</p>
+<p>
+Install Rewrite Module, "rewrite_amd64_en-US.msi" 
+</p>
 <br>
 <p>
 <img src="https://i.imgur.com/SCA128Z.png" height="60%" width="60%" alt="Google Drive"/>
@@ -107,13 +110,24 @@ Install Rewrite Module, rewrite_amd64_en-US.msi </p>
 <p> Copy contents of "php-7.3.8-nts-Win32-VC15-x86.zip" to "C:\PHP"  </p>
 
 <p> Install Visual C++, VC_redist.x86.exe </p>
+<p> Install MySQL 5.5.62, mysql-5.5.62-win32.msi and follow setup below </p>
 
-<p> Download and MySQL 5.5.62, mysql-5.5.62-win32.msi </p>
 <p> Typical Setup ->
+<p>
+<img src="https://i.imgur.com/t8D4JqE.png" height="40%" width="40%" alt="Google Drive"/>
+</p>
 Launch Configuration Wizard (after install) ->
+<p>
+<img src="https://i.imgur.com/fcmcBmZ.png" height="40%" width="40%" alt="Google Drive"/>
+</p>
 Standard Configuration ->
+<p>
+<img src="https://i.imgur.com/DGgJaNj.png" height="40%" width="40%" alt="Google Drive"/>
+</p>
 Enter Password </p>
-
+<p>
+<img src="https://i.imgur.com/wfHeaI6.png" height="40%" width="40%" alt="Google Drive"/>
+</p>
 <p> Open IIS as an Admin </p>
 <br />
 
