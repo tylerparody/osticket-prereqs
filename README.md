@@ -137,18 +137,63 @@ Enter Password </p>
 </p>
 <p> In the Windows Search bar type or copy and paste  "Internet Information Services (IIS) Manager" and click open as administrator shown below </p>
 <p>
-<img src="https://i.imgur.com/N5bUV6v.png" height="30%" width="30%" alt="Windows Search Bar"/>
+<img src="https://i.imgur.com/N5bUV6v.png" height="35%" width="35%" alt="Windows Search Bar"/>
 </p>
 <p>
-<img src="https://i.imgur.com/x1QhYUh.png" height="30%" width="30%" alt="PHP Manager"/>
+<img src="https://i.imgur.com/x1QhYUh.png" height="50%" width="50%" alt="PHP Manager"/>
 </p>
 <p> Click on PHP Manager </p>
 <p>
-<img src="https://i.imgur.com/VhB5qzb.png" height="30%" width="30%" alt="PHP Manager"/>
+<img src="https://i.imgur.com/VhB5qzb.png" height="50%" width="50%" alt="PHP Manager"/>
 </p>
 <p> Click on Register new PHP version </p>
 <p>
 <img src="https://i.imgur.com/j75FrES.png" height="30%" width="30%" alt="PHP Manager"/>
 </p>
 <p> Provide the path "C:\PHP\php-cgi.exe" when prompted </p>
-<br />
+<br/>
+<p> 
+Install osTicket v1.15.8
+<br/>
+<p>
+<img src="https://i.imgur.com/lwnM7wL.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>  
+<p>
+<img src="https://i.imgur.com/Fd2YXRU.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+Extract and copy “upload” folder to c:\inetpub\wwwroot
+<br/>
+<p>
+<img src="https://i.imgur.com/c1kV8qV.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+</p>
+<p>
+<img src="https://i.imgur.com/x1QhYUh.png" height="50%" width="50%" alt="PHP Manager"/>
+</p>
+</p>
+Go to sites -> Default -> osTicket -> PHP manager
+<br/>
+<p>
+<img src="https://i.imgur.com/uVtIesv.png" height="50%" width="50%" alt="PHP Manager"/>
+</p>
+Click “Enable or disable an extension”
+<br/>
+<p>
+<img src="https://i.imgur.com/3KXN2kY.png" height="50%" width="50%" alt="PHP Manager"/>
+</p>
+Enable: php_imap.dll by clicking on the extension and then clicking enable on upper right
+<br/>
+Enable: php_intl.dll
+<br/>
+Enable: php_opcache.dll
+<br/>
+</p>
+<p>
+<img src="https://i.imgur.com/uVtIesv.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+</p>
+Go to sites -> Default -> osTicket
+<br/>
+On the right, click “Browse *:80”
+</p>
