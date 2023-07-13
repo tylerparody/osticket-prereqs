@@ -156,12 +156,12 @@ Enter Password </p>
 Install osTicket v1.15.8
 <br/>
 <p>
-<img src="https://i.imgur.com/lwnM7wL.png" height="30%" width="30%" alt="PHP Manager"/>
+<img src="https://i.imgur.com/0i0YEjw.png" height="30%" width="30%" alt="PHP Manager"/>
 </p>  
 <p>
 <img src="https://i.imgur.com/Fd2YXRU.png" height="30%" width="30%" alt="PHP Manager"/>
 </p>
-Extract and copy “upload” folder to c:\inetpub\wwwroot
+Extract and copy “upload” folder to "c:\inetpub\wwwroot"
 <br/>
 <p>
 <img src="https://i.imgur.com/c1kV8qV.png" height="30%" width="30%" alt="PHP Manager"/>
@@ -197,3 +197,34 @@ Go to sites -> Default -> osTicket
 <br/>
 On the right, click “Browse *:80”
 </p>
+<p>
+<img src="https://i.imgur.com/1YM5Fnz.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+</p>
+Browse to "C:\inetpub\wwwroot\osTicket\include\" and rename "ost-sampleconfig.php" to "ost-config.php"
+ <br/>
+</p>
+<p>
+<img src="https://i.imgur.com/aBh1RRJ.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+</p>
+Change the permissions of ost-config.php to everyone and disable inheritance.
+<br/>
+Right click on  ost-config.php and go to Properties -> Security -> Advanced -> Disable Inheritance -> Remove All Inherited Permissions
+<br/>
+<p>
+<img src="https://i.imgur.com/HHs7XKB.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p>
+<img src="https://i.imgur.com/mysEJfs.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p>
+Add -> Select a principal -> enter "Everyone" into object name and click Okay
+</p>
+<p>
+<img src="https://i.imgur.com/bIdEKaH.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p>
+Click "Full Control" -> Okay -> Okay
+</p>
+
