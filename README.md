@@ -120,6 +120,8 @@ Launch Configuration Wizard (after install) ->
 <p>
 <img src="https://i.imgur.com/fcmcBmZ.png" height="40%" width="40%" alt="Google Drive"/>
 </p>
+Click next until the below image is reached
+<br>
 Standard Configuration ->
 <p>
 <img src="https://i.imgur.com/DGgJaNj.png" height="40%" width="40%" alt="Google Drive"/>
@@ -127,6 +129,15 @@ Standard Configuration ->
 Enter Password </p>
 <p>
 <img src="https://i.imgur.com/wfHeaI6.png" height="40%" width="40%" alt="Google Drive"/>
+</p>
+<p>Click Next and Execute </p>
+
+<p>
+<img src="https://i.imgur.com/x3Jiap7.jpg" height="30%" width="30%" alt="Windows Search Bar"/>
+</p>
+<p> In the Windows Search bar type or copy and paste  "Internet Information Services (IIS) Manager" and click open as administrator shown below </p>
+<p>
+<img src="https://i.imgur.com/N5bUV6v.png" height="30%" width="30%" alt="Windows Search Bar"/>
 </p>
 <p> Open IIS as an Admin </p>
 <br />
