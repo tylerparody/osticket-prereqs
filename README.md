@@ -147,5 +147,8 @@ Enter Password </p>
 <img src="https://i.imgur.com/VhB5qzb.png" height="30%" width="30%" alt="PHP Manager"/>
 </p>
 <p> Click on Register new PHP version </p>
+<p>
+<img src="https://i.imgur.com/j75FrES.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
 <p> Provide the path "C:\PHP\php-cgi.exe" when prompted </p>
 <br />
