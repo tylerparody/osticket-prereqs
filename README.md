@@ -139,6 +139,13 @@ Enter Password </p>
 <p>
 <img src="https://i.imgur.com/N5bUV6v.png" height="30%" width="30%" alt="Windows Search Bar"/>
 </p>
-<p> Open IIS as an Admin </p>
+<p>
+<img src="https://i.imgur.com/x1QhYUh.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p> Click on PHP Manager </p>
+<p>
+<img src="https://i.imgur.com/VhB5qzb.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p> Click on Register new PHP version </p>
+<p> Provide the path "C:\PHP\php-cgi.exe" when prompted </p>
 <br />
-
