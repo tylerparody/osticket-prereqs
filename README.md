@@ -258,6 +258,17 @@ Download, Install, and Launch HeidiSQL </p>
 Create a new session 
 </p>
 <p>
+<img src="https://i.imgur.com/av8TIQR.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p>
+Right click "Unamed" > Create > Database</p>
+<p>
+<p>
+<img src="https://i.imgur.com/1soNcVG.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p>
+Name the database "osTicket" </p>
+<p>
 <img src="https://i.imgur.com/uVtIesv.png" height="30%" width="30%" alt="PHP Manager"/>
 </p>
 <p>
@@ -271,10 +282,11 @@ Return to the browser</p>
 <img src="https://i.imgur.com/3QiYtkz.png" height="30%" width="30%" alt="PHP Manager"/>
 </p>
 <p>
-Fill out the infromation, use the SQL username and password created when installing MySQL </p>
+Fill out the infromation, use the SQL username and password created when installing MySQL, use the database name "osTicket" created through HeidiSQL </p>
 <p>
-<img src="https://i.imgur.com/9t9eJWy.png" height="30%" width="30%" alt="PHP Manager"/>
+<img src="https://i.imgur.com/FWeRlRm.png" height="30%" width="30%" alt="PHP Manager"/>
 </p>
 <p>
-Fill out the infromation, use the SQL username and password created when installing MySQL
+Fill out the infromation, use the SQL username and password created when installing MySQL, use the database name "osTicket" created through HeidiSQL
 </p>
+
