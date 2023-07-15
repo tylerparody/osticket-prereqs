@@ -126,7 +126,7 @@ Standard Configuration ->
 <p>
 <img src="https://i.imgur.com/DGgJaNj.png" height="40%" width="40%" alt="Google Drive"/>
 </p>
-Enter Password </p>
+Enter Password (remeber password for later) </p>
 <p>
 <img src="https://i.imgur.com/wfHeaI6.png" height="40%" width="40%" alt="Google Drive"/>
 </p>
@@ -175,7 +175,7 @@ Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
 Go to sites -> Default -> osTicket -> PHP manager
 <br/>
 <p>
-<img src="https://i.imgur.com/uVtIesv.png" height="50%" width="50%" alt="PHP extensions"/>
+<img src="https://i.imgur.com/2JFTEeJ.png" height="50%" width="50%" alt="PHP extensions"/>
 </p>
 Click “Enable or disable an extension”
 <br/>
@@ -219,17 +219,12 @@ Add -> Select a principal -> enter "Everyone" into object name and click Okay
 <p>
 Click "Full Control" -> Okay -> Okay
 </p>
-
-<p>
-</p>
-<img src="https://i.imgur.com/mizsEfI.png" height="30%" width="30%" alt="PHP Manager"/>
-</p>
 <p>
 From the Installation Files, download and install HeidiSQL.
 <br/>
 Open Heidi SQL
 <br/>
-Create a new session, root/Password1
+Create a new session, root and password created for MySQL
 <br/>
 Connect to the session
 <br/>
@@ -250,4 +245,36 @@ On the right, click “Browse *:80”
 </p>
 <p>
 Click continue in the browser to setup osTicket
+</p>
+<p>
+<img src="https://i.imgur.com/k8lcXMZ.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p>
+Download, Install, and Launch HeidiSQL </p>
+<p>
+<img src="https://i.imgur.com/LThY6sr.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p>
+Create a new session 
+</p>
+<p>
+<img src="https://i.imgur.com/uVtIesv.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p>
+Run IIS go to sites -> Default -> osTicket</p>
+<p>
+<img src="https://i.imgur.com/mizsEfI.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p>
+Return to the browser</p>
+<p>
+<img src="https://i.imgur.com/3QiYtkz.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p>
+Fill out the infromation, use the SQL username and password created when installing MySQL </p>
+<p>
+<img src="https://i.imgur.com/9t9eJWy.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p>
+Fill out the infromation, use the SQL username and password created when installing MySQL
 </p>
