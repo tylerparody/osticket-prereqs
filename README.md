@@ -144,11 +144,11 @@ Enter Password </p>
 </p>
 <p> Click on PHP Manager </p>
 <p>
-<img src="https://i.imgur.com/VhB5qzb.png" height="50%" width="50%" alt="PHP Manager"/>
+<img src="https://i.imgur.com/VhB5qzb.png" height="50%" width="50%" alt="PHP Manager Reg"/>
 </p>
 <p> Click on Register new PHP version </p>
 <p>
-<img src="https://i.imgur.com/j75FrES.png" height="30%" width="30%" alt="PHP Manager"/>
+<img src="https://i.imgur.com/j75FrES.png" height="30%" width="30%" alt="CGI"/>
 </p>
 <p> Provide the path "C:\PHP\php-cgi.exe" when prompted </p>
 <br/>
@@ -156,7 +156,7 @@ Enter Password </p>
 Install osTicket v1.15.8
 <br/>
 <p>
-<img src="https://i.imgur.com/0i0YEjw.png" height="30%" width="30%" alt="PHP Manager"/>
+<img src="https://i.imgur.com/0i0YEjw.png" height="30%" width="30%" alt="extract osTicket"/>
 </p>  
 <p>
 <img src="https://i.imgur.com/Fd2YXRU.png" height="30%" width="30%" alt="PHP Manager"/>
@@ -164,7 +164,7 @@ Install osTicket v1.15.8
 Extract and copy “upload” folder to "c:\inetpub\wwwroot"
 <br/>
 <p>
-<img src="https://i.imgur.com/c1kV8qV.png" height="30%" width="30%" alt="PHP Manager"/>
+<img src="https://i.imgur.com/c1kV8qV.png" height="30%" width="30%" alt="Rename osTicket"/>
 </p>
 Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
 </p>
@@ -175,12 +175,12 @@ Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
 Go to sites -> Default -> osTicket -> PHP manager
 <br/>
 <p>
-<img src="https://i.imgur.com/uVtIesv.png" height="50%" width="50%" alt="PHP Manager"/>
+<img src="https://i.imgur.com/uVtIesv.png" height="50%" width="50%" alt="PHP extensions"/>
 </p>
 Click “Enable or disable an extension”
 <br/>
 <p>
-<img src="https://i.imgur.com/3KXN2kY.png" height="50%" width="50%" alt="PHP Manager"/>
+<img src="https://i.imgur.com/3KXN2kY.png" height="50%" width="50%" alt="PHP enable/disable extensions"/>
 </p>
 Enable: php_imap.dll by clicking on the extension and then clicking enable on upper right
 <br/>
@@ -190,22 +190,14 @@ Enable: php_opcache.dll
 <br/>
 </p>
 <p>
-<img src="https://i.imgur.com/uVtIesv.png" height="30%" width="30%" alt="PHP Manager"/>
-</p>
-</p>
-Go to sites -> Default -> osTicket
-<br/>
-On the right, click “Browse *:80”
-</p>
-<p>
-<img src="https://i.imgur.com/1YM5Fnz.png" height="30%" width="30%" alt="PHP Manager"/>
+<img src="https://i.imgur.com/1YM5Fnz.png" height="30%" width="30%" alt="rename ost-sampleconfig"/>
 </p>
 </p>
 Browse to "C:\inetpub\wwwroot\osTicket\include\" and rename "ost-sampleconfig.php" to "ost-config.php"
  <br/>
 </p>
 <p>
-<img src="https://i.imgur.com/aBh1RRJ.png" height="30%" width="30%" alt="PHP Manager"/>
+<img src="https://i.imgur.com/aBh1RRJ.png" height="30%" width="30%" alt="disable inheritence of ost-config"/>
 </p>
 </p>
 Change the permissions of ost-config.php to everyone and disable inheritance.
@@ -213,10 +205,10 @@ Change the permissions of ost-config.php to everyone and disable inheritance.
 Right click on  ost-config.php and go to Properties -> Security -> Advanced -> Disable Inheritance -> Remove All Inherited Permissions
 <br/>
 <p>
-<img src="https://i.imgur.com/HHs7XKB.png" height="30%" width="30%" alt="PHP Manager"/>
+<img src="https://i.imgur.com/HHs7XKB.png" height="30%" width="30%" alt="permissions ostconfig"/>
 </p>
 <p>
-<img src="https://i.imgur.com/mysEJfs.png" height="30%" width="30%" alt="PHP Manager"/>
+<img src="https://i.imgur.com/mysEJfs.png" height="30%" width="30%" alt="permissions ostconfig"/>
 </p>
 <p>
 Add -> Select a principal -> enter "Everyone" into object name and click Okay
@@ -228,3 +220,34 @@ Add -> Select a principal -> enter "Everyone" into object name and click Okay
 Click "Full Control" -> Okay -> Okay
 </p>
 
+<p>
+</p>
+<img src="https://i.imgur.com/mizsEfI.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p>
+From the Installation Files, download and install HeidiSQL.
+<br/>
+Open Heidi SQL
+<br/>
+Create a new session, root/Password1
+<br/>
+Connect to the session
+<br/>
+Create a database called “osTicket”
+<br/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/uVtIesv.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p>
+Go to sites -> Default -> osTicket
+<br/>
+On the right, click “Browse *:80”
+</p>
+<p>
+<img src="https://i.imgur.com/mizsEfI.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p>
+Click continue in the browser to setup osTicket
+</p>
