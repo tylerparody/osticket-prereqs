@@ -177,9 +177,37 @@ Add -> Select a principal -> enter "Everyone" into object name and click Okay
 <p>
 Click "Full Control" -> Okay -> Okay
 </p>
+
+<p>
+From the downloaded osTicket Installation Files, download and install HeidiSQL.
+<p/>
+<p>
+<img src="https://i.imgur.com/k8lcXMZ.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p>
+Download, Install, and Launch HeidiSQL </p>
+<p>
+<img src="https://i.imgur.com/LThY6sr.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p>
+Create a new session 
+</p>
+<p>
+<img src="https://i.imgur.com/av8TIQR.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p>
+Right click "Unamed" > Create > Database</p>
+<p>
+<p>
+<img src="https://i.imgur.com/1soNcVG.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p>
+Name the database "osTicket" 
+</p>
 <p>
 <img src="https://i.imgur.com/x3Jiap7.jpg" height="30%" width="30%" alt="Windows Search Bar"/>
 </p>
+<p>
 <p> In the Windows Search bar type or copy and paste  "Internet Information Services (IIS) Manager" and click open as administrator shown below </p>
 <p>
 <img src="https://i.imgur.com/N5bUV6v.png" height="35%" width="35%" alt="Windows Search Bar"/>
@@ -213,66 +241,14 @@ Enable: php_intl.dll
 Enable: php_opcache.dll
 <br/>
 </p>
-<p>
-From the Installation Files, download and install HeidiSQL.
-<br/>
-Open Heidi SQL
-<br/>
-Create a new session, root and password created for MySQL
-<br/>
-Connect to the session
-<br/>
-Create a database called “osTicket”
-<br/>
-</p>
+
 <p>
 <p>
-<img src="https://i.imgur.com/uVtIesv.png" height="30%" width="30%" alt="PHP Manager"/>
+<img src="https://i.imgur.com/uVtIesv.png" height="75%" width="75%" alt="PHP Manager"/>
 </p>
 <p>
 Go to sites -> Default -> osTicket
 <br/>
-On the right, click “Browse *:80”
-</p>
-<p>
-<img src="https://i.imgur.com/mizsEfI.png" height="30%" width="30%" alt="PHP Manager"/>
-</p>
-<p>
-Click continue in the browser to setup osTicket
-</p>
-<p>
-<img src="https://i.imgur.com/k8lcXMZ.png" height="30%" width="30%" alt="PHP Manager"/>
-</p>
-<p>
-Download, Install, and Launch HeidiSQL </p>
-<p>
-<img src="https://i.imgur.com/LThY6sr.png" height="30%" width="30%" alt="PHP Manager"/>
-</p>
-<p>
-Create a new session 
-</p>
-<p>
-<img src="https://i.imgur.com/av8TIQR.png" height="30%" width="30%" alt="PHP Manager"/>
-</p>
-<p>
-Right click "Unamed" > Create > Database</p>
-<p>
-<p>
-<img src="https://i.imgur.com/1soNcVG.png" height="30%" width="30%" alt="PHP Manager"/>
-</p>
-<p>
-Name the database "osTicket" </p>
-<p>
-<img src="https://i.imgur.com/uVtIesv.png" height="30%" width="30%" alt="PHP Manager"/>
-</p>
-<p>
-Run IIS go to sites -> Default -> osTicket</p>
-<p>
-<img src="https://i.imgur.com/mizsEfI.png" height="30%" width="30%" alt="PHP Manager"/>
-</p>
-<p>
-Return to the browser</p>
-<p>
 <img src="https://i.imgur.com/3QiYtkz.png" height="30%" width="30%" alt="PHP Manager"/>
 </p>
 <p>
