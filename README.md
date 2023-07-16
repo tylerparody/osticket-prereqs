@@ -132,6 +132,21 @@ Enter Password (remeber password for later) </p>
 </p>
 <p>Click Next and Execute </p>
 
+Install osTicket v1.15.8
+<br/>
+<p>
+<img src="https://i.imgur.com/0i0YEjw.png" height="30%" width="30%" alt="extract osTicket"/>
+</p>  
+<p>
+<img src="https://i.imgur.com/Fd2YXRU.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+Extract and copy “upload” folder to "c:\inetpub\wwwroot"
+<br/>
+<p>
+<img src="https://i.imgur.com/c1kV8qV.png" height="30%" width="30%" alt="Rename osTicket"/>
+</p>
+Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+</p>
 <p>
 <img src="https://i.imgur.com/x3Jiap7.jpg" height="30%" width="30%" alt="Windows Search Bar"/>
 </p>
@@ -150,30 +165,9 @@ Enter Password (remeber password for later) </p>
 <p>
 <img src="https://i.imgur.com/j75FrES.png" height="30%" width="30%" alt="CGI"/>
 </p>
-<p> Provide the path "C:\PHP\php-cgi.exe" when prompted </p>
+<p> Provide the path "C:\PHP\php-cgi.exe" when prompted and click Okay</p>
 <br/>
 <p> 
-Install osTicket v1.15.8
-<br/>
-<p>
-<img src="https://i.imgur.com/0i0YEjw.png" height="30%" width="30%" alt="extract osTicket"/>
-</p>  
-<p>
-<img src="https://i.imgur.com/Fd2YXRU.png" height="30%" width="30%" alt="PHP Manager"/>
-</p>
-Extract and copy “upload” folder to "c:\inetpub\wwwroot"
-<br/>
-<p>
-<img src="https://i.imgur.com/c1kV8qV.png" height="30%" width="30%" alt="Rename osTicket"/>
-</p>
-Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
-</p>
-<p>
-<img src="https://i.imgur.com/x1QhYUh.png" height="50%" width="50%" alt="PHP Manager"/>
-</p>
-</p>
-Go to sites -> Default -> osTicket -> PHP manager
-<br/>
 <p>
 <img src="https://i.imgur.com/2JFTEeJ.png" height="50%" width="50%" alt="PHP extensions"/>
 </p>
