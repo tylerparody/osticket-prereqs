@@ -66,7 +66,7 @@ Check the CGI Box under Expand Internet Information Services > World Wide Webs S
 </p>
 
 <p>
-<img src="https://i.imgur.com/gcIg8L5.png" height="30%" width="30%" alt="Common HTTP Features"/>
+<img src="https://i.imgur.com/gcIg8L5.png" height="50%" width="50%" alt="Common HTTP Features"/>
 </p>
 <p>
 Also Check all the Common HTTP Features shown above.
@@ -103,9 +103,9 @@ Install Rewrite Module, "rewrite_amd64_en-US.msi"
 <p>
 <img src="https://i.imgur.com/SCA128Z.png" height="60%" width="60%" alt="Google Drive"/>
 </p>
-<p> Create the directory C:\PHP (to unzip PHP to) </p>
+<p> Create the directory C:\PHP (to copy PHP to) </p>
 <p>
-<img src="https://i.imgur.com/THJIdpD.png" height="60%" width="60%" alt="Google Drive"/>
+<img src="https://i.imgur.com/THJIdpD.png" height="65%" width="65%" alt="Google Drive"/>
 </p>
 <p> Copy contents of "php-7.3.8-nts-Win32-VC15-x86.zip" to "C:\PHP"  </p>
 
@@ -135,27 +135,27 @@ Enter Password (remeber password for later) </p>
 Install osTicket v1.15.8
 <br/>
 <p>
-<img src="https://i.imgur.com/0i0YEjw.png" height="30%" width="30%" alt="extract osTicket"/>
+<img src="https://i.imgur.com/0i0YEjw.png" height="65%" width="65%" alt="extract osTicket"/>
 </p>  
 <p>
-<img src="https://i.imgur.com/Fd2YXRU.png" height="30%" width="30%" alt="PHP Manager"/>
+<img src="https://i.imgur.com/Fd2YXRU.png" height="65%" width="65%" alt="PHP Manager"/>
 </p>
 Extract and copy “upload” folder to "c:\inetpub\wwwroot"
 <br/>
 <p>
-<img src="https://i.imgur.com/a0oGBKg.png" height="30%" width="30%" alt="Rename osTicket"/>
+<img src="https://i.imgur.com/a0oGBKg.png" height="65%" width="65%" alt="Rename osTicket"/>
 </p>
 Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
 </p>
 <p>
-<img src="https://i.imgur.com/1YM5Fnz.png" height="30%" width="30%" alt="rename ost-sampleconfig"/>
+<img src="https://i.imgur.com/1YM5Fnz.png" height="65%" width="65%" alt="rename ost-sampleconfig"/>
 </p>
 </p>
 Browse to "C:\inetpub\wwwroot\osTicket\include\" and rename "ost-sampleconfig.php" to "ost-config.php"
  <br/>
 </p>
 <p>
-<img src="https://i.imgur.com/aBh1RRJ.png" height="30%" width="30%" alt="disable inheritence of ost-config"/>
+<img src="https://i.imgur.com/aBh1RRJ.png" height="65%" width="65%" alt="disable inheritence of ost-config"/>
 </p>
 </p>
 Change the permissions of ost-config.php to everyone and disable inheritance.
@@ -172,7 +172,7 @@ Right click on  ost-config.php and go to Properties -> Security -> Advanced -> D
 Add -> Select a principal -> enter "Everyone" into object name and click Okay
 </p>
 <p>
-<img src="https://i.imgur.com/bIdEKaH.png" height="30%" width="30%" alt="PHP Manager"/>
+<img src="https://i.imgur.com/bIdEKaH.png" height="65%" width="65%" alt="PHP Manager"/>
 </p>
 <p>
 Click "Full Control" -> Okay -> Okay
@@ -193,13 +193,13 @@ Download, Install, and Launch HeidiSQL </p>
 Create a new session 
 </p>
 <p>
-<img src="https://i.imgur.com/8zQhxDK.png" height="30%" width="30%" alt="PHP Manager"/>
+<img src="https://i.imgur.com/8zQhxDK.png" height="65%" width="65%" alt="PHP Manager"/>
 </p>
 <p>
 Type in password used to create MySQL database
 <p>
 <p>
-<img src="https://i.imgur.com/av8TIQR.png" height="30%" width="30%" alt="PHP Manager"/>
+<img src="https://i.imgur.com/av8TIQR.png" height="65%" width="65%" alt="PHP Manager"/>
 </p>
 <p>
 Right click "Unamed" > Create > Database</p>
@@ -216,29 +216,29 @@ Name the database "osTicket"
 <p>
 <p> In the Windows Search bar type or copy and paste  "Internet Information Services (IIS) Manager" and click open as administrator shown below </p>
 <p>
-<img src="https://i.imgur.com/N5bUV6v.png" height="35%" width="35%" alt="Windows Search Bar"/>
+<img src="https://i.imgur.com/N5bUV6v.png" height="65%" width="65%" alt="Windows Search Bar"/>
 </p>
 <p>
-<img src="https://i.imgur.com/x1QhYUh.png" height="50%" width="50%" alt="PHP Manager"/>
+<img src="https://i.imgur.com/x1QhYUh.png" height="65%" width="65%" alt="PHP Manager"/>
 </p>
 <p> Click on PHP Manager </p>
 <p>
-<img src="https://i.imgur.com/VhB5qzb.png" height="50%" width="50%" alt="PHP Manager Reg"/>
+<img src="https://i.imgur.com/VhB5qzb.png" height="65%" width="65%" alt="PHP Manager Reg"/>
 </p>
 <p> Click on Register new PHP version </p>
 <p>
-<img src="https://i.imgur.com/j75FrES.png" height="30%" width="30%" alt="CGI"/>
+<img src="https://i.imgur.com/j75FrES.png" height="65%" width="65%" alt="CGI"/>
 </p>
 <p> Provide the path "C:\PHP\php-cgi.exe" when prompted and click Okay</p>
 <br/>
 <p> 
 <p>
-<img src="https://i.imgur.com/2JFTEeJ.png" height="50%" width="50%" alt="PHP extensions"/>
+<img src="https://i.imgur.com/2JFTEeJ.png" height="65%" width="65%" alt="PHP extensions"/>
 </p>
 Click “Enable or disable an extension”
 <br/>
 <p>
-<img src="https://i.imgur.com/3KXN2kY.png" height="50%" width="50%" alt="PHP enable/disable extensions"/>
+<img src="https://i.imgur.com/3KXN2kY.png" height="65%" width="65%" alt="PHP enable/disable extensions"/>
 </p>
 Enable: php_imap.dll by clicking on the extension and then clicking enable on upper right
 <br/>
@@ -247,7 +247,6 @@ Enable: php_intl.dll
 Enable: php_opcache.dll
 <br/>
 </p>
-
 <p>
 <p>
 <img src="https://i.imgur.com/uVtIesv.png" height="75%" width="75%" alt="PHP Manager"/>
@@ -255,30 +254,30 @@ Enable: php_opcache.dll
 <p>
 Go to sites -> Default -> osTicket
 <br/>
-<img src="https://i.imgur.com/3QiYtkz.png" height="30%" width="30%" alt="PHP Manager"/>
+<img src="https://i.imgur.com/3QiYtkz.png" height="65%" width="65%" alt="PHP Manager"/>
 </p>
 <p>
 Fill out the infromation, use the SQL username and password created when installing MySQL, use the database name "osTicket" created through HeidiSQL (keep note of usernames and passwords)</p>
 <p>
-<img src="https://i.imgur.com/FWeRlRm.png" height="30%" width="30%" alt="PHP Manager"/>
+<img src="https://i.imgur.com/FWeRlRm.png" height="65%" width="65%" alt="PHP Manager"/>
 </p>
 <p>
 Fill out the infromation, use the SQL username and password created when installing MySQL, use the database name "osTicket" created through HeidiSQL (keep note of usernames and passwords) and install now
 </p>
 <p>
-<img src="https://i.imgur.com/PT3X5to.png" height="30%" width="30%" alt="PHP Manager"/>
+<img src="https://i.imgur.com/PT3X5to.png" height="65%" width="65%" alt="PHP Manager"/>
 </p>
 <p>
 For security reasons  Delete: C:\inetpub\wwwroot\osTicket\setup and
 <br/>
 <p>
-<img src="https://i.imgur.com/4rtCqwA.png" height="30%" width="30%" alt="PHP Manager"/>
+<img src="https://i.imgur.com/4rtCqwA.png" height="65%" width="65%" alt="PHP Manager"/>
 </p> 
 Set Permissions to “Read” and "Read and Execute" only for: C:\inetpub\wwwroot\osTicket\include\ost-config.php
  <br/>
 </p>
 <p>
-<img src="https://i.imgur.com/rtm229j.png" height="30%" width="30%" alt="oTicket Loginscreen"/>
+<img src="https://i.imgur.com/rtm229j.png" height="50%" width="50%" alt="oTicket Loginscreen"/>
 </p>
 <p>
 Browse to local help desk login page http://localhost/osTicket/scp/login.php and login with user name and password created 
