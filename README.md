@@ -263,11 +263,44 @@ Fill out the infromation, use the SQL username and password created when install
 <img src="https://i.imgur.com/FWeRlRm.png" height="30%" width="30%" alt="PHP Manager"/>
 </p>
 <p>
-Fill out the infromation, use the SQL username and password created when installing MySQL, use the database name "osTicket" created through HeidiSQL (keep note of usernames and passwords)
+Fill out the infromation, use the SQL username and password created when installing MySQL, use the database name "osTicket" created through HeidiSQL (keep note of usernames and passwords) and install now
 </p>
 <p>
-<img src="https://i.imgur.com/rtm229j.png" height="30%" width="30%" alt="PHP Manager"/>
+<img src="https://i.imgur.com/PT3X5to.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p>
+For security reasons  Delete: C:\inetpub\wwwroot\osTicket\setup and
+<br/>
+<p>
+<img src="https://i.imgur.com/h5zddrj.png" height="30%" width="30%" alt="PHP Manager"/>
+</p> 
+Set Permissions to “Read” only for: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+ <br/>
+</p>
+<p>
+<img src="https://i.imgur.com/rtm229j.png" height="30%" width="30%" alt="oTicket Loginscreen"/>
 </p>
 <p>
 Browse to local help desk login page http://localhost/osTicket/scp/login.php and login with user name and password created 
 </p>
+<p>
+Setting up osTicket, osTicket Configuration</p>
+<p>
+<img src="https://i.imgur.com/kYMyoXh.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p>
+<img src="https://i.imgur.com/0M1crJ2.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p>
+Click Admin in the top right to access admin settings</p>
+<p>
+<img src="https://i.imgur.com/0M1crJ2.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p>
+Click Admin in the top right to access admin settings
+</p>
+<p>
+<img src="https://i.imgur.com/0M1crJ2.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p>
+Click Admin in the top right to access admin settings</p>
