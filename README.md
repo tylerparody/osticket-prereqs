@@ -272,9 +272,9 @@ Fill out the infromation, use the SQL username and password created when install
 For security reasons  Delete: C:\inetpub\wwwroot\osTicket\setup and
 <br/>
 <p>
-<img src="https://i.imgur.com/h5zddrj.png" height="30%" width="30%" alt="PHP Manager"/>
+<img src="https://i.imgur.com/4rtCqwA.png" height="30%" width="30%" alt="PHP Manager"/>
 </p> 
-Set Permissions to “Read” only for: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+Set Permissions to “Read” and "Read and Execute" only for: C:\inetpub\wwwroot\osTicket\include\ost-config.php
  <br/>
 </p>
 <p>
@@ -284,23 +284,3 @@ Set Permissions to “Read” only for: C:\inetpub\wwwroot\osTicket\include\ost-
 Browse to local help desk login page http://localhost/osTicket/scp/login.php and login with user name and password created 
 </p>
 <p>
-Setting up osTicket, osTicket Configuration</p>
-<p>
-<img src="https://i.imgur.com/kYMyoXh.png" height="30%" width="30%" alt="PHP Manager"/>
-</p>
-<p>
-<img src="https://i.imgur.com/0M1crJ2.png" height="30%" width="30%" alt="PHP Manager"/>
-</p>
-<p>
-Click Admin in the top right to access admin settings</p>
-<p>
-<img src="https://i.imgur.com/0M1crJ2.png" height="30%" width="30%" alt="PHP Manager"/>
-</p>
-<p>
-Click Admin in the top right to access admin settings
-</p>
-<p>
-<img src="https://i.imgur.com/0M1crJ2.png" height="30%" width="30%" alt="PHP Manager"/>
-</p>
-<p>
-Click Admin in the top right to access admin settings</p>
