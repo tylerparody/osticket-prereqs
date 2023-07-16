@@ -193,6 +193,12 @@ Download, Install, and Launch HeidiSQL </p>
 Create a new session 
 </p>
 <p>
+<img src="https://i.imgur.com/8zQhxDK.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p>
+Type in password used to create MySQL database
+<p>
+<p>
 <img src="https://i.imgur.com/av8TIQR.png" height="30%" width="30%" alt="PHP Manager"/>
 </p>
 <p>
@@ -252,11 +258,16 @@ Go to sites -> Default -> osTicket
 <img src="https://i.imgur.com/3QiYtkz.png" height="30%" width="30%" alt="PHP Manager"/>
 </p>
 <p>
-Fill out the infromation, use the SQL username and password created when installing MySQL, use the database name "osTicket" created through HeidiSQL </p>
+Fill out the infromation, use the SQL username and password created when installing MySQL, use the database name "osTicket" created through HeidiSQL (keep note of usernames and passwords)</p>
 <p>
 <img src="https://i.imgur.com/FWeRlRm.png" height="30%" width="30%" alt="PHP Manager"/>
 </p>
 <p>
-Fill out the infromation, use the SQL username and password created when installing MySQL, use the database name "osTicket" created through HeidiSQL
+Fill out the infromation, use the SQL username and password created when installing MySQL, use the database name "osTicket" created through HeidiSQL (keep note of usernames and passwords)
 </p>
-
+<p>
+<img src="https://i.imgur.com/rtm229j.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p>
+Browse to local help desk login page http://localhost/osTicket/scp/login.php and login with user name and password created 
+</p>
