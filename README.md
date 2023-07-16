@@ -143,9 +143,39 @@ Install osTicket v1.15.8
 Extract and copy “upload” folder to "c:\inetpub\wwwroot"
 <br/>
 <p>
-<img src="https://i.imgur.com/c1kV8qV.png" height="30%" width="30%" alt="Rename osTicket"/>
+<img src="https://i.imgur.com/a0oGBKg.png" height="30%" width="30%" alt="Rename osTicket"/>
 </p>
 Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+</p>
+<p>
+<img src="https://i.imgur.com/1YM5Fnz.png" height="30%" width="30%" alt="rename ost-sampleconfig"/>
+</p>
+</p>
+Browse to "C:\inetpub\wwwroot\osTicket\include\" and rename "ost-sampleconfig.php" to "ost-config.php"
+ <br/>
+</p>
+<p>
+<img src="https://i.imgur.com/aBh1RRJ.png" height="30%" width="30%" alt="disable inheritence of ost-config"/>
+</p>
+</p>
+Change the permissions of ost-config.php to everyone and disable inheritance.
+<br/>
+Right click on  ost-config.php and go to Properties -> Security -> Advanced -> Disable Inheritance -> Remove All Inherited Permissions
+<br/>
+<p>
+<img src="https://i.imgur.com/HHs7XKB.png" height="30%" width="30%" alt="permissions ostconfig"/>
+</p>
+<p>
+<img src="https://i.imgur.com/mysEJfs.png" height="30%" width="30%" alt="permissions ostconfig"/>
+</p>
+<p>
+Add -> Select a principal -> enter "Everyone" into object name and click Okay
+</p>
+<p>
+<img src="https://i.imgur.com/bIdEKaH.png" height="30%" width="30%" alt="PHP Manager"/>
+</p>
+<p>
+Click "Full Control" -> Okay -> Okay
 </p>
 <p>
 <img src="https://i.imgur.com/x3Jiap7.jpg" height="30%" width="30%" alt="Windows Search Bar"/>
@@ -182,36 +212,6 @@ Enable: php_intl.dll
 <br/>
 Enable: php_opcache.dll
 <br/>
-</p>
-<p>
-<img src="https://i.imgur.com/1YM5Fnz.png" height="30%" width="30%" alt="rename ost-sampleconfig"/>
-</p>
-</p>
-Browse to "C:\inetpub\wwwroot\osTicket\include\" and rename "ost-sampleconfig.php" to "ost-config.php"
- <br/>
-</p>
-<p>
-<img src="https://i.imgur.com/aBh1RRJ.png" height="30%" width="30%" alt="disable inheritence of ost-config"/>
-</p>
-</p>
-Change the permissions of ost-config.php to everyone and disable inheritance.
-<br/>
-Right click on  ost-config.php and go to Properties -> Security -> Advanced -> Disable Inheritance -> Remove All Inherited Permissions
-<br/>
-<p>
-<img src="https://i.imgur.com/HHs7XKB.png" height="30%" width="30%" alt="permissions ostconfig"/>
-</p>
-<p>
-<img src="https://i.imgur.com/mysEJfs.png" height="30%" width="30%" alt="permissions ostconfig"/>
-</p>
-<p>
-Add -> Select a principal -> enter "Everyone" into object name and click Okay
-</p>
-<p>
-<img src="https://i.imgur.com/bIdEKaH.png" height="30%" width="30%" alt="PHP Manager"/>
-</p>
-<p>
-Click "Full Control" -> Okay -> Okay
 </p>
 <p>
 From the Installation Files, download and install HeidiSQL.
