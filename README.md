@@ -239,7 +239,7 @@ Click “Enable or disable an extension”
 <p>
 <img src="https://i.imgur.com/3KXN2kY.png" height="65%" width="65%" alt="PHP enable/disable extensions"/>
 </p>
-Enable: php_imap.dll by clicking on the extension and then clicking enable on upper right
+Enable: php_imap.dll by clicking on the extension and then clicking enable on upper right (shown below)
 <br/>
 Enable: php_intl.dll
 <br/>
@@ -247,11 +247,13 @@ Enable: php_opcache.dll
 <br/>
 </p>
 <p>
+<img src="https://i.imgur.com/OIeYHAj.png" height="65%" width="65%" alt="PHP enable/disable extensions"/>
+</p>
 <p>
 <img src="https://i.imgur.com/uVtIesv.png" height="75%" width="75%" alt="PHP Manager"/>
 </p>
 <p>
-Go to sites -> Default -> osTicket
+Go to sites -> Default -> osTicket -> Browse *:80 (http)
 <br/>
 <img src="https://i.imgur.com/3QiYtkz.png" height="65%" width="65%" alt="PHP Manager"/>
 </p>
