@@ -120,8 +120,7 @@ Launch Configuration Wizard (after install) ->
 <p>
 <img src="https://i.imgur.com/fcmcBmZ.png" height="40%" width="40%" alt="Google Drive"/>
 </p>
-Click next until the below image is reached
-<br>
+Launch the Configuration Wizard <br>
 Standard Configuration ->
 <p>
 <img src="https://i.imgur.com/DGgJaNj.png" height="40%" width="40%" alt="Google Drive"/>
