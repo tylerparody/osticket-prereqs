@@ -276,6 +276,7 @@ For security reasons  Delete: C:\inetpub\wwwroot\osTicket\setup and
 </p> 
 Set Permissions to “Read” and "Read and Execute" only for: C:\inetpub\wwwroot\osTicket\include\ost-config.php
  <br/>
+Then click Okay -> Okay
 </p>
 <p>
 <img src="https://i.imgur.com/rtm229j.png" height="50%" width="50%" alt="oTicket Loginscreen"/>
