@@ -284,6 +284,4 @@ Then click Okay -> Okay
 <img src="https://i.imgur.com/rtm229j.png" height="50%" width="50%" alt="oTicket Loginscreen"/>
 </p>
 <p>
-Browse to local help desk login page http://localhost/osTicket/scp/login.php and login with user name and password created 
-</p>
-<p>
+Browse to local </p> [help desk login page] (http://localhost/osTicket/scp/login.php)<p>and login with user name and password created </p>
