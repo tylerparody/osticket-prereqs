@@ -265,12 +265,18 @@ Fill out the infromation, use the SQL username and password created when install
 <img src="https://i.imgur.com/PT3X5to.png" height="65%" width="65%" alt="PHP Manager"/>
 </p>
 <p>
-For security reasons  Delete: C:\inetpub\wwwroot\osTicket\setup and
-<br/>
+For security reasons  Delete: C:\inetpub\wwwroot\osTicket\setup
+<br/> 
+<p>
+<img src="https://i.imgur.com/i8c0fIC.png" height="65%" width="65%" alt="PHP Manager"/>
+</p>
+<p>
+Open the Advanced Security settings for C:\inetpub\wwwroot\osTicket\include\ost-config.php and Edit the settings for "Everyone"
+<br/> 
 <p>
 <img src="https://i.imgur.com/4rtCqwA.png" height="65%" width="65%" alt="PHP Manager"/>
 </p> 
-Set Permissions to “Read” and "Read and Execute" only for: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+Set Permissions to “Read” and "Read and Execute" for Everyone
  <br/>
 Then click Okay -> Okay
 </p>
